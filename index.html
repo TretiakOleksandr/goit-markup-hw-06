@@ -396,7 +396,7 @@
                 <p class="invitation-text">Подпишитесь на рассылку</p>
                 <form action="#" class="subscript">
                     <input type="text" name="user-mail" class="footer-form-input" placeholder="E-mail">
-                    <button type="submit" class="modal-form-button">
+                    <button type="submit" class="footer-modal-form-button">
                         <span class="modal-form-button-text">Подписаться</span>
                         <svg class="send-icon">
                             <use href="./images/sprite.svg#icon-send"></use>
@@ -451,12 +451,19 @@
 
                 <label for="" class="modal-form-field">
                     <span class="label-text">Комментарий</span> 
-                    <textarea class="modal-form-message" name="user-coment" placeholder="Введите текст"></textarea>
+                    <textarea class="modal-form-message" name="user-coment" placeholder="Введите текст"></textarea>  
                 </label>
+
+                <!-- <label for="" class="modal-form-field">
+                    <span class="label-text">Комментарий</span> 
+                    <span class="modal-form-field-wrapper">
+                        <textarea class="modal-form-message" name="user-coment" placeholder="Введите текст"></textarea>
+                    </span>    
+                </label> -->
 
                 <input id="policy" type="checkbox" name="user-checkbox" value="accept" class="form-checkbox visually-hidden">
                 <label for="policy" class="form-checkbox-text">
-                    Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+                    Соглашаюсь с рассылкой и принимаю <a href="" class="modal-link">Условия договора</a>
                 </label>
 
                 <button type="submit" class="modal-form-button">
